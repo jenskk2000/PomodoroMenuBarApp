@@ -2,23 +2,34 @@
 
 Native macOS menu bar app for focused Pomodoro sessions plus project time tracking.
 
-## What it does
+## For students: download and use (no coding)
 
-- Pomodoro timer (focus, short break, long break)
-- Project timer (count up) with resumable tracked projects
+1. Open the [Releases page](https://github.com/jenskk2000/PomodoroMenuBarApp/releases).
+2. Download the latest file named `PomodoroBar.app.zip` (or similar).
+3. Double-click the zip file to unpack the app.
+4. Drag `PomodoroBar.app` into your `Applications` folder.
+5. Open `Applications`, then open `PomodoroBar`.
+6. If macOS blocks it the first time: right-click the app, click `Open`, then click `Open` again.
+7. Look at the top-right menu bar for the timer icon and click it to use the app.
+
+## What this app does
+
+- Pomodoro countdown timer
+- Project timer (count up) for tracking real work time
 - Weekly Pomodoro session count
 - Local notifications and optional sounds
-- Launch at login toggle
-- Everything in one compact popup window
+- Launch at login option
 
-## Privacy and security model
+## Common problems
 
-- Local-first: no network calls for timer features
-- No accounts or cloud sync
-- Timer/task data stays on-device (`UserDefaults`)
-- Release target uses hardened runtime
+- "App is damaged/incomplete":
+  Re-download from the Releases page. Do not use "Download Source Code" for running the app.
+- No icon in menu bar:
+  Close and reopen the app from `Applications`.
+- Launch at login does not work:
+  Make sure the app is inside `Applications` first.
 
-## Run locally
+## For developers
 
 ### Swift Package
 
@@ -29,15 +40,11 @@ swift run
 
 ### Xcode app
 
-Open:
+Open `PomodoroBarXcode/PomodoroBar.xcodeproj`, then run the `PomodoroBar` scheme.
 
-- `PomodoroBarXcode/PomodoroBar.xcodeproj`
+## Security and release docs
 
-Then run the `PomodoroBar` scheme.
-
-## Open-source + release files
-
-- Security policy: `SECURITY.md`
-- Contributing guide: `CONTRIBUTING.md`
-- Release checklist: `RELEASE_CHECKLIST.md`
-- License: `LICENSE`
+- `SECURITY.md`
+- `CONTRIBUTING.md`
+- `RELEASE_CHECKLIST.md`
+- `LICENSE`
