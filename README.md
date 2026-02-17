@@ -24,6 +24,11 @@ Native macOS menu bar app for focused Pomodoro sessions plus project time tracki
 
 - "App is damaged/incomplete":
   Re-download from the Releases page. Do not use "Download Source Code" for running the app.
+- "Apple could not verify this app is free from malware" (the popup with `Move to Bin`):
+  1. Click `OK` (do not move to bin).
+  2. Open `System Settings` -> `Privacy & Security` (`Anonymitet og sikkerhed`).
+  3. Scroll down and click `Open Anyway` (`Aabn alligevel`) for `PomodoroBar.app`.
+  4. Confirm by clicking `Open`.
 - No icon in menu bar:
   Close and reopen the app from `Applications`.
 - Launch at login does not work:
