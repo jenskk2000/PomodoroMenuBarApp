@@ -2,8 +2,8 @@
 
 ## 1. Security + quality gate
 
-1. `cd /Users/jenskristensen/Projects/forsjov/PomodoroBar && swift build`
-2. `xcodebuild -project /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/.DerivedData build`
+1. `cd PomodoroBar && swift build`
+2. `xcodebuild -project PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath PomodoroBarXcode/.DerivedData build`
 3. Manual smoke test:
    - Open/close popup
    - Start/pause/reset Pomodoro

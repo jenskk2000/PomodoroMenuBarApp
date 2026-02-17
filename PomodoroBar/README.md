@@ -23,18 +23,18 @@ Native macOS menu bar app with two separate workflows:
 ## Run from Swift Package
 
 ```bash
-cd /Users/jenskristensen/Projects/forsjov/PomodoroBar
+cd PomodoroBar
 swift run
 ```
 
 ## Xcode app project
 
-- `/Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/PomodoroBar.xcodeproj`
+- `PomodoroBarXcode/PomodoroBar.xcodeproj`
 
 Set your Team in Signing, then run/archive.
 
 ## Open-source release docs
 
-- `/Users/jenskristensen/Projects/forsjov/README.md`
-- `/Users/jenskristensen/Projects/forsjov/SECURITY.md`
-- `/Users/jenskristensen/Projects/forsjov/RELEASE_CHECKLIST.md`
+- `README.md`
+- `SECURITY.md`
+- `RELEASE_CHECKLIST.md`

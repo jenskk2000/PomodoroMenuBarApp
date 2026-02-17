@@ -23,7 +23,7 @@ Native macOS menu bar app for focused Pomodoro sessions plus project time tracki
 ### Swift Package
 
 ```bash
-cd /Users/jenskristensen/Projects/PomodoroMenuBarApp/PomodoroBar
+cd PomodoroBar
 swift run
 ```
 
@@ -31,13 +31,13 @@ swift run
 
 Open:
 
-- `/Users/jenskristensen/Projects/PomodoroMenuBarApp/PomodoroBarXcode/PomodoroBar.xcodeproj`
+- `PomodoroBarXcode/PomodoroBar.xcodeproj`
 
 Then run the `PomodoroBar` scheme.
 
 ## Open-source + release files
 
-- Security policy: `/Users/jenskristensen/Projects/PomodoroMenuBarApp/SECURITY.md`
-- Contributing guide: `/Users/jenskristensen/Projects/PomodoroMenuBarApp/CONTRIBUTING.md`
-- Release checklist: `/Users/jenskristensen/Projects/PomodoroMenuBarApp/RELEASE_CHECKLIST.md`
-- License: `/Users/jenskristensen/Projects/PomodoroMenuBarApp/LICENSE`
+- Security policy: `SECURITY.md`
+- Contributing guide: `CONTRIBUTING.md`
+- Release checklist: `RELEASE_CHECKLIST.md`
+- License: `LICENSE`

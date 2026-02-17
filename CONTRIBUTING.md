@@ -11,9 +11,9 @@ Thanks for contributing to PomodoroBar.
 ## Project structure
 
 - Swift Package source of truth:
-  - `/Users/jenskristensen/Projects/forsjov/PomodoroBar/Sources/PomodoroBar`
+  - `PomodoroBar/Sources/PomodoroBar`
 - Xcode app mirror:
-  - `/Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/PomodoroBar/Source`
+  - `PomodoroBarXcode/PomodoroBar/Source`
 
 Keep these folders in sync.
 
@@ -21,8 +21,8 @@ Keep these folders in sync.
 
 Run both before opening a PR:
 
-1. `cd /Users/jenskristensen/Projects/forsjov/PomodoroBar && swift build`
-2. `xcodebuild -project /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/.DerivedData build`
+1. `cd PomodoroBar && swift build`
+2. `xcodebuild -project PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath PomodoroBarXcode/.DerivedData build`
 
 ## Security expectations
 

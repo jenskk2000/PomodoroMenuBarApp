@@ -29,8 +29,8 @@ Before each public release:
 
 1. Build from a clean tree.
 2. Run:
-   - `cd /Users/jenskristensen/Projects/forsjov/PomodoroBar && swift build`
-   - `xcodebuild -project /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath /Users/jenskristensen/Projects/forsjov/PomodoroBarXcode/.DerivedData build`
+   - `cd PomodoroBar && swift build`
+   - `xcodebuild -project PomodoroBarXcode/PomodoroBar.xcodeproj -scheme PomodoroBar -configuration Release -derivedDataPath PomodoroBarXcode/.DerivedData build`
 3. Verify Hardened Runtime is enabled in Release settings.
 4. Verify app still runs with notifications and launch-at-login toggles.
 5. Sign and notarize before sharing broadly.
