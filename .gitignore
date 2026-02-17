@@ -12,3 +12,5 @@ PomodoroBarXcode/PomodoroBar.xcodeproj/xcuserdata/
 *.xcuserstate
 *.dSYM
 *.app
+.release-build/
+release-artifacts/
