@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+PomodoroBar/.build/
+PomodoroBar/.swiftpm/
+PomodoroBarXcode/build/
+PomodoroBarXcode/.DerivedData/
+PomodoroBarXcode/PomodoroBar.xcodeproj/xcuserdata/
+*.xcuserstate
+*.dSYM
+*.app
